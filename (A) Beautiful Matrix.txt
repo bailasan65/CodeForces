@@ -1,0 +1,25 @@
+#include<iostream>
+ 
+#include <cmath>
+ 
+ 
+ 
+using namespace std;
+ 
+int main()
+{  int n=0;
+	
+	for(int r=1;r<=5;r++)
+	{
+	   for(int col=1;col<=5;col++)
+	   {cin>>n;
+	   
+	   if(n==1)
+	   {
+	   	
+   		 cout<< abs(r - 3)+ abs(col - 3);
+   		 return 0;
+   	   }}
+	   	
+	}
+}

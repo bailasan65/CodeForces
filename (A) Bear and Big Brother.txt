@@ -1,0 +1,23 @@
+#includeiostream
+#includestring
+#include cmath
+#include algorithm
+using namespace std;
+ 
+int main()
+{  
+	int a,b,c=0;
+	cinab;
+	if(ab)
+	c=0;
+	else
+	while(a=b)
+	{
+		a=a3;
+		b=b2;
+		c++;
+	}
+    coutcendl;
+	return 0;
+	
+}

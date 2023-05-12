@@ -1,0 +1,47 @@
+#include<iostream>
+#include<string>
+#include<math.h>
+using namespace std;
+ 
+string tosmall(string s)
+{
+	 for(int i=0;i<s.length();i++)
+   {
+   	  if(s[i]<=90)
+   	  s[i]=s[i]+32;
+   }
+   cout<<s<<endl;
+}
+ 
+string tocapital(string s)
+{
+	 for(int i=0;i<s.length();i++)
+   {
+   	 if(s[i]>90)
+   	  s[i]=s[i]-32;
+   }
+   cout<<s<<endl;
+}
+ 
+ 
+ 
+int main()
+{
+   string s;
+   cin>>s;
+   int sm=0;int ca=0;
+   for(int i=0;i<s.length();i++)
+   {
+   	 if(s[i]>90)
+   	 sm++;
+   	 else
+   	 ca++;
+   }
+  
+   if(sm>=ca)
+   tosmall(s);
+   else tocapital(s);
+ 
+   
+return 0;
+}
